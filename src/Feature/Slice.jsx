@@ -19,10 +19,10 @@ export const Slice = createSlice({
     name:'State',
     initialState,
     reducers: {
-        addState: (state, action, payload) => {
+        addState: (state, action) => {
             state.States.push(action.payload);
         },
-        clearState : (state, action, payload) => {
+        clearState : (state, payload) => {
             state.States = payload;
     
     },

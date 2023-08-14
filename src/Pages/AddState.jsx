@@ -14,7 +14,6 @@ import {
 } from "@chakra-ui/react";
 import { ArrowBackIcon } from "@chakra-ui/icons";
 
-
 import { useDispatch } from "react-redux";
 import { addState } from "../Feature/Slice";
 const AddState = () => {
